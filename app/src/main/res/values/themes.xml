@@ -6,4 +6,11 @@
     </style>
 
     <style name="Theme.QuizApp" parent="Base.Theme.QuizApp" />
+    <!--    no action bar for perticular activity-->
+
+   <style name="Theme.QuizApp.NoActionBar">
+       <item name="windowActionBar">false</item>
+       <item name="windowNoTitle">true</item>
+       <item name="android:windowFullscreen">true</item>
+   </style>
 </resources>
