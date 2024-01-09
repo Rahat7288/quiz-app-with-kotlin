@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
 
         buttonStart.setOnClickListener {
             if(!editTextName.text.isEmpty()){
+//                navigating to the QuestionActivity screen
                 Intent(this@MainActivity,QuestionActivity::class.java).also {
                     startActivity(it)
                     finish()
