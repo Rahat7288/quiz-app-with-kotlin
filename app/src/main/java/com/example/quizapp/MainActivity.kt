@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         val editTextName: EditText = findViewById(R.id.name)
 
         buttonStart.setOnClickListener {
-            if(!editTextName.text.isEmpty()){
+            if(editTextName.text.isNotEmpty()){
 //                navigating to the QuestionActivity screen
                 Intent(this@MainActivity,QuestionActivity::class.java).also {
                     startActivity(it)
